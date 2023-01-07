@@ -4,6 +4,7 @@
   "welcomeText": "# Welkom tot de verkenning van jouw e-mail marketing strategie.",
   "logo": "/images/uploads/logo.svg",
   "icon": "/images/uploads/logo.png",
+  "picture": "/images/uploads/photo-1671556024855-2d78d7833b3c.jpeg",
   "loadingColor": "#0b3765",
   "seoDescription": "A quickstart for Nuxt & Netlify CMS",
   "seoMetaImage": ""
