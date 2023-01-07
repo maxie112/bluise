@@ -1,7 +1,7 @@
 <template>
   <section class="page" :class="page.slug">
     <div class="text-center">
-      <img :src="picture" alt="Logo" />
+      <img: src="picture" alt="picture" />
     </div>
     <h1 class="page__title text-lg md:text-xl lg:text-4xl xl:text-6xl text-center py-8 md:py-16">
       {{ page.title }}
