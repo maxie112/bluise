@@ -7,10 +7,10 @@
 
     <svg class="divider -mx-4 sm:mx-0" width="100%" viewBox="0 0 10 1">
       <polygon stroke="none" stroke-width="0" fill="#0b3765" points="0,0.6 0,1 10,1 10,0" />
-      <text x="10" y="0.8" font-size="0.8" fill="#fff" dominant-baseline="middle" text-anchor="end">GOREACH</text>
-      <text x="10" y="1.6" font-size="0.8" fill="#fff" dominant-baseline="middle" text-anchor="end">VAN NELLEWEG 1</text>
-      <text x="10" y="2.4" font-size="0.8" fill="#fff" dominant-baseline="middle" text-anchor="end">3044BC ROTTERDAM</text>
-      <text x="10" y="3.2" font-size="0.8" fill="#fff" dominant-baseline="middle" text-anchor="end">NEDERLAND</text>
+      <text x="10" y="0.5" font-size="0.2" fill="#fff" dominant-baseline="middle" text-anchor="end">GOREACH</text>
+      <text x="10" y="0.7" font-size="0.2" fill="#fff" dominant-baseline="middle" text-anchor="end">VAN NELLEWEG 1</text>
+      <text x="10" y="0.9" font-size="0.2" fill="#fff" dominant-baseline="middle" text-anchor="end">3044BC ROTTERDAM</text>
+      <text x="10" y="12" font-size="0.1" fill="#fff" dominant-baseline="middle" text-anchor="end">NEDERLAND</text>
     </svg>
 
     <site-footer />
