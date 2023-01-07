@@ -1,8 +1,8 @@
 {
   "title": "Home",
-  "titleTemplate": "| GoReach",
+  "titleTemplate": "| Bluise",
   "welcomeText": "# Welkom tot de verkenning van jouw e-mail marketing strategie.",
-  "logo": "/images/uploads/logogoreach.png",
+  "logo": "/images/uploads/logo.svg",
   "icon": "/images/uploads/logo.png",
   "loadingColor": "#0b3765",
   "seoDescription": "A quickstart for Nuxt & Netlify CMS",
