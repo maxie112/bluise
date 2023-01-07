@@ -6,7 +6,6 @@
     <h1 class="page__title text-lg md:text-xl lg:text-4xl xl:text-6xl text-center py-8 md:py-16">
       {{ page.title }}
     </h1>
-
     <div v-html="$md.render(page.content)" class="page__content markdown pt-4 md:pt-6 md:pb-24" />
   </section>
 </template>
