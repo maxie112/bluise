@@ -40,43 +40,7 @@
           src="https://source.unsplash.com/random/720x400"
         />
       </div>
-      <div class="flex flex-wrap md:-mx-4 pb-20">
-  <div v-for="(post, index) in posts" :key="index" class="w-full md:w-1/2 my-4 md:px-4">
-    <div class="post">
-      <nuxt-link :to="`/blog/${post.slug}`">
-        <img
-          :alt="post.title"
-          class="w-full"
-          :src="post.featuredImage || 'https://source.unsplash.com/random/640x340'"
-        />
-        <div class="p-6 bg-white">
-          <h2 class="text-2xl mb-2">{{ post.title }}</h2>
-
-          <p class="text-base font-light">
-            {{ post.excerpt }}
-          </p>
-
-          <h6 class="text-blue-600 mt-4 font-medium">Lees meer</h6>
-        </div>
-      </nuxt-link>
-    </div>
-  </div>
-</div>
-
-<div class="py-8 md:py-16 text-center">
-  <h1 class="text-lg md:text-xl lg:text-4xl xl:text-6xl">Team</h1>
-</div>
-<div class="flex flex-wrap md:-mx-4 pb-20">
-  <div v-for="(member, index) in team" :key="index" class="w-full md:w-1/3 my-4 md:px-4">
-    <div class="team-member">
-      <img :src="member.img" alt="team member" :alt="member.name" class="w-full">
-      <h3 class="text-lg md:text-xl">{{ member.name }}</h3>
-      <p class="text-base font-light">{{ member.position }}</p>
-    </div>
-  </div>
-</div>
-<Pagination v-if="totalPages > 1" :current-page="currentPage" :total-pages="totalPages" />
-
+      
     </div>
   </section>
 </template>
